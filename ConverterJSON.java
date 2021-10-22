@@ -18,7 +18,6 @@ public class ConverterJSON extends Converter{
     public void toJSON(Test[] test) throws IOException {
         try {
             ObjectMapper mapper = new ObjectMapper();
-            //mapper.configure(SerializationFeature.WRAP_ROOT_VALUE, true);
             mapper.writeValue(new File(filePath), test);
             System.out.println("\nФайл создан!");
             //обработчик ошибок
