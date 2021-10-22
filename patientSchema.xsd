@@ -1,0 +1,142 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "patients": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "string"
+            },
+            "surname": {
+              "type": "string"
+            },
+            "name": {
+              "type": "string"
+            },
+            "patronymic": {
+              "type": "string"
+            },
+            "birthday": {
+              "type": "string"
+            },
+            "policynumber": {
+              "type": "string"
+            },
+            "test": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "object",
+                  "properties": {
+                    "type": {
+                      "type": "string"
+                    },
+                    "date": {
+                      "type": "string"
+                    },
+                    "accuracy": {
+                      "type": "string"
+                    },
+                    "idlab": {
+                      "type": "string"
+                    },
+                    "result": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "type",
+                    "date",
+                    "accuracy",
+                    "idlab",
+                    "result"
+                  ]
+                }
+              ]
+            }
+          },
+          "required": [
+            "id",
+            "surname",
+            "name",
+            "patronymic",
+            "birthday",
+            "policynumber",
+            "test"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "string"
+            },
+            "surname": {
+              "type": "string"
+            },
+            "name": {
+              "type": "string"
+            },
+            "patronymic": {
+              "type": "string"
+            },
+            "birthday": {
+              "type": "string"
+            },
+            "policynumber": {
+              "type": "string"
+            },
+            "test": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "object",
+                  "properties": {
+                    "type": {
+                      "type": "string"
+                    },
+                    "date": {
+                      "type": "string"
+                    },
+                    "accuracy": {
+                      "type": "string"
+                    },
+                    "idlab": {
+                      "type": "string"
+                    },
+                    "result": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "type",
+                    "date",
+                    "accuracy",
+                    "idlab",
+                    "result"
+                  ]
+                }
+              ]
+            }
+          },
+          "required": [
+            "id",
+            "surname",
+            "name",
+            "patronymic",
+            "birthday",
+            "policynumber",
+            "test"
+          ]
+        }
+      ]
+    }
+  },
+  "required": [
+    "patients"
+  ]
+}
