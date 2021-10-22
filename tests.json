@@ -1,0 +1,24 @@
+[	{
+		"patient" : "1",
+		"type" : "IgG",
+		"date" : "2021-10-19",
+		"accuracy" : "Качетсвенный",
+		"idlab" : "25",
+		"result" : "negative"
+		},
+	{
+		"patient" : "1",
+		"type" : "IgM",
+		"date" : "2021-10-19",
+		"accuracy" : "Качетсвенный",
+		"idlab" : "25",
+		"result" : "positive"
+	},
+		{
+		"patient" : "2",	
+		"type" : "IgM",
+		"date" : "2020-09-17",
+		"accuracy" : "Количесвтенный",
+		"idlab" : "24",
+		"result" : "negative"
+		}]

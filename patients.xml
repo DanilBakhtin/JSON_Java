@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<patients xmlns:xsd="http://www.w3.org/2001/XMLSchema-instance">
+    <patient>
+    	<id>1</id>
+        <surname>Bakhtin</surname> 
+        <name>Danil</name>
+        <patronymic>Ruslanovich</patronymic>
+        <birthday>2000-02-25</birthday>
+        <policynumber>12345678</policynumber>
+    </patient>
+    
+    <patient>
+    	<id>2</id>
+        <surname>Ivanov</surname> 
+        <name>Ivan</name>
+        <patronymic>Ivanovich</patronymic>
+        <birthday>2002-00-16</birthday>
+        <policynumber>87654321</policynumber>
+    </patient>
+</patients>

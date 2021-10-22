@@ -1,0 +1,36 @@
+{"patients" : [
+	{
+	"id" : "1",
+	"surname" : "Bakhtin",
+	"name" : "Danil",
+	"patronymic" : "Ruslanovich",
+	"birthday" : "2000-02-25",
+	"policynumber" : "12345678",
+	"test" : [
+		{
+		"type" : "IgG",
+		"date" : "2021-10-19",
+		"accuracy" : "quality",
+		"idlab" : "25",
+		"result" : "positive"
+		}
+	]
+	},
+	{
+	"id" : "2",
+	"surname" : "Ivanov",
+	"name" : "Ivan",
+	"patronymic" : "Ivanovich",
+	"birthday" : "2002-09-16",
+	"policynumber" : "87654321",
+	"test" : [
+		{
+		"type" : "IgM",
+		"date" : "2021-10-19",
+		"accuracy" : "quantitative",
+		"idlab" : "24",
+		"result" : "negative"
+		}
+	]
+	}
+]	}
